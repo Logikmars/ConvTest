@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html ng-app="converter">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<header>
+  <div id="current_date_time_block2">
+    <H2>Курс Валют на сьогодні</H2>
+    <form id="myForm">
+      <label>
+        USD 
+        <div data-value="UAH"> </div>
+      </label>
+      <br>
+      <label>
+        EUR
+        <div data-value="EUR"> </div>
+      </label>
+    </form>
+  </div>
+  <br>
+</header>
+
+
+<div class="container pt-5 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <!-- Content -->
+          <div class="card p-3">
+            <form>
+              <div class="row mb-1">
+                <div class="col">
+                  <label for="name">Отдаю:</label>
+                  <select
+                    disabled
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option value="USD" selected>USD — Гривны</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <label for="name">Получаю:</label>
+                  <select
+                    id="select"
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option value="UAH">UAH — Доллар США</option>
+                    <option value="EUR">EUR — Евро</option>
+                  </select>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <input
+                    id="input"
+                    type="number"
+                    class="form-control"
+                    id="name"
+                    autofocus
+                  />
+                </div>
+                <br>
+                <div class="col">
+                  <input
+                    id="result"
+                    type="number"
+                    class="form-control"
+                    id="name"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- // Content -->
+        </div>
+        <!-- // col-6 -->
+      </div>
+      <!-- // row -->
+    </div>
+    <!-- // container -->
+    <section class="container">
+  <div class="cat">
+    <div class="ears">
+      <p class="ear">
+      </p>
+      <p class="ear">
+      </p>
+    </div>
+    <p class="head">
+      <div class="eyes">
+        <p class="eye"></p>
+        <p class="eye"></p>
+      </div>
+      <p class="nose">
+      </p>
+    </p>
+    <p class="body">
+    </p>
+    <p class="tail">
+    </p>
+    <p class="tail-curl">
+    </p>
+  </div>
+</section>
+  <script src="conv.js"></script>
+</body>
+</html>
